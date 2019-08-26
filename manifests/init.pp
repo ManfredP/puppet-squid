@@ -48,6 +48,7 @@ class squid (
   $always_direct                 = [],
   $never_direct                  = [],
   $addon_config                  = [],
+  $auth_param                    = [],
 
 ) inherits ::squid::params {
 
