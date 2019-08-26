@@ -1,5 +1,5 @@
 {
-  "name": "ManfredP-squid",
+  "name": "puppet-squid",
   "version": "0.1.0",
   "author": "Manfred Pusch",
   "summary": "manage the squid proxyserver",
@@ -20,6 +20,5 @@
         "7"
       ]
     }
-  ],
-  "dashed_name": "ManfredP-squid"
+  ]
 }
