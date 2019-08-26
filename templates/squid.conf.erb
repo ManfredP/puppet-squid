@@ -5,6 +5,11 @@
 http_access allow manager localhost
 http_access deny manager
 
+# user-defined auth_param
+<% scope.lookupvar('::squid::auth_param').each do |line| -%>
+auth_param <%= line %>
+<% end -%>
+
 # user-defined ACLs
 <% scope.lookupvar('::squid::acl').each do |line| -%>
 acl <%= line %>
